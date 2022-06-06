@@ -15,7 +15,7 @@ export default function App() {
         defaultValue={""}
       />
       <View style={styles.forget}>
-    <Button title="Forgot Password?" color="#FF3D00" />
+    <Button title="Forgot Password?" color="#70E304" />
     </View>
 
 </View>
@@ -28,11 +28,11 @@ const styles = StyleSheet.create({
   main:{
     flex:1,
     justifyContent:'center',
-    backgroundColor:"orange",
+    backgroundColor:"#003380",
     
   },
   img:{
-    backgroundColor:"#0362fc",
+    backgroundColor:"#70E304",
     padding: 15,
     borderRadius:20,
     width: 150, 
@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
   },
   txtone:{
     color:"white",
-    marginLeft:150,
-    marginRight:150,
+    marginLeft:"auto",
+    marginRight:"auto",
     fontSize:30,
     marginBottom:10
   },
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
     marginRight:"auto",
     padding:15,
     borderRadius:20,
-    borderColor:"black",
+    borderColor:"pink",
     borderWidth:2,
     marginBottom:15
 
@@ -66,7 +66,6 @@ const styles = StyleSheet.create({
     width:"50%",
     marginLeft:"auto",
     marginRight:"auto",
-    backgroundColor:"pink",
-    borderRadius:15
+   
   }
 });
